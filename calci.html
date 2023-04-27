@@ -1,0 +1,25 @@
+<html>
+    <head>
+      <title>HTML calculator</title>
+          <script src="calci.js" rel="script"></script>
+          <script src="calcic.css" rel="stylesheet"></script>  
+    </head>
+    <body>
+      <div class="display">
+        <div><input id="first"/></div>
+        <div><input id="second"/></div>  
+        <p class="output" id="op"></p></div>
+    
+        <div>
+            <button>multi</button>
+            <button onClick="m('add')">add</button>
+            <button onClick="m('sub')">sub</button>
+            <button onClick="m('mul')">mul</button>
+            <button onClick="m('div')">div</button>
+            <button onClick="m('percen')">percen</button>
+            <button onClick="m('neg')">-ve/+ve</button>
+            <button onClick="document.getElementById('second').value='',document.getElementById('first').value='',document.getElementById('op').value=''">clr</button>
+       </div>
+    
+    </body>
+</html>
